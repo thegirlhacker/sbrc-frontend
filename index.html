@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Summit 2024</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#hero" class="nav-link">Home</a>
+        <a href="#details" class="nav-link">Details</a>
+        <a href="#faq" class="nav-link">FAQs</a>
+        <a href="#registration" class="nav-link">Register</a>
+    </nav>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Tech Innovation Summit 2024</h1>
+            <p class="hero-subtitle">October 15-17 • Silicon Valley Convention Center</p>
+            <a href="#registration" class="cta">Register Now</a>
+        </div>
+    </section>
+
+    <section id="details">
+        <div class="container">
+            <h2 class="section-title">Event Highlights</h2>
+            <div class="grid">
+                <div class="card">
+                    <i class="fas fa-microchip card-icon"></i>
+                    <h3>Emerging Technologies</h3>
+                    <p>Explore the latest advancements in AI, Quantum Computing, and IoT.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-users card-icon"></i>
+                    <h3>Networking Events</h3>
+                    <p>Connect with industry leaders and innovators from around the globe.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-chalkboard-teacher card-icon"></i>
+                    <h3>Workshops</h3>
+                    <p>Hands-on sessions with top experts in various technology fields.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="speakers">
+        <div class="container">
+            <h2 class="section-title">Featured Speakers</h2>
+            <div class="speakers-grid">
+                <!-- Speaker 1 -->
+                <div class="speaker-card">
+                    <div class="speaker-image">
+                        <img src="assets/1.jpg" alt="Dr. Alan Turing">
+                    </div>
+                    <h3 class="speaker-name">Dr. Alan Turing</h3>
+                    <p class="speaker-designation">Chief AI Researcher, DeepMind</p>
+                    <div class="speaker-socials">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <!-- Speaker 2 -->
+                <div class="speaker-card">
+                    <div class="speaker-image">
+                        <img src="assets/2.jpg" alt="Dr. Grace Hopper">
+                    </div>
+                    <h3 class="speaker-name">Dr. Grace Hopper</h3>
+                    <p class="speaker-designation">CTO, Future Tech Inc.</p>
+                    <div class="speaker-socials">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <!-- Speaker 3 -->
+                <div class="speaker-card">
+                    <div class="speaker-image">
+                        <img src="assets/3.jpg" alt="Dr. Tim Berners-Lee">
+                    </div>
+                    <h3 class="speaker-name">Dr. Tim Berners-Lee</h3>
+                    <p class="speaker-designation">Web Protocol Architect</p>
+                    <div class="speaker-socials">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <!-- Speaker 4 -->
+                <div class="speaker-card">
+                    <div class="speaker-image">
+                        <img src="assets/4.jpg" alt="Dr. Ada Lovelace">
+                    </div>
+                    <h3 class="speaker-name">Dr. Ada Lovelace</h3>
+                    <p class="speaker-designation">Quantum Computing Lead, TechFuture</p>
+                    <div class="speaker-socials">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="faq">
+        <div class="faq-container">
+            <h2 class="section-title">FAQs</h2>
+            <div class="faq-item">
+                <input type="checkbox" id="faq1" class="faq-toggle" hidden>
+                <label for="faq1" class="faq-question">
+                    <h3>What's included in the ticket?</h3>
+                    <i class="fas fa-chevron-down faq-icon"></i>
+                </label>
+                <div class="faq-answer">
+                    <p>All tickets include access to keynote speeches, exhibition halls, and networking events. VIP
+                        tickets include workshop access and premium seating.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <input type="checkbox" id="faq2" class="faq-toggle" hidden>
+                <label for="faq2" class="faq-question">
+                    <h3>Can I get a refund?</h3>
+                    <i class="fas fa-chevron-down faq-icon"></i>
+                </label>
+                <div class="faq-answer">
+                    <p>Refunds are available up to 30 days before the event. Please contact our support team for
+                        assistance.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <input type="checkbox" id="faq3" class="faq-toggle" hidden>
+                <label for="faq3" class="faq-question">
+                    <h3>Is there parking available?</h3>
+                    <i class="fas fa-chevron-down faq-icon"></i>
+                </label>
+                <div class="faq-answer">
+                    <p>Yes, we have partnered with nearby parking facilities offering discounted rates for attendees.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="registration">
+        <div class="form-container">
+            <h2 class="section-title">Registration</h2>
+            <form>
+                <div class="form-group">
+                    <input type="text" class="form-input" placeholder=" " required>
+                    <label class="form-label">Full Name</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-input" placeholder=" " required>
+                    <label class="form-label">Email Address</label>
+                </div>
+                <div class="form-group">
+                    <input type="tel" class="form-input" placeholder=" ">
+                    <label class="form-label">Phone Number (optional)</label>
+                </div>
+                <button style="margin-left: 28%;" type="submit" class="cta">Complete Registration</button>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
